@@ -1,0 +1,7 @@
+! Example SR-MPLS configuration fragment.
+! Exact syntax depends on the installed FRR release.
+router ospf
+ segment-routing on
+ segment-routing global-block 16000 23999
+ segment-routing node-msd 16
+ segment-routing prefix 10.255.1.1/32 index 1

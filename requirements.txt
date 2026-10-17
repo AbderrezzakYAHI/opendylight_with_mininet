@@ -1,0 +1,3 @@
+# Host packages are documented in README.md.
+# Mininet is normally installed from the OS package manager.
+mininet
